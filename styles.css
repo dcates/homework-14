@@ -1,0 +1,51 @@
+.form-control {
+  display: inline-block;
+  width: 10%;
+  margin-top: 50px;
+  position: fixed;
+}
+
+.btn-default {
+  position: fixed;
+}
+
+.jumbotron {
+  margin-bottom: 20px;
+  background-image: url("ufo.jpg");
+  background-size: cover;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+}
+
+
+table { table-layout: fixed; width: 100%; }
+td.title { white-space:nowrap;overflow: hidden; width: 200px; }
+
+.reset {float: right}
+
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+.container1 {
+  border-style: groove
+}
+
+.overflowTest {
+  margin-left: 15%;
+  padding: 15px;
+  width: 85%;
+  height: 1000px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;            
+}​
+
